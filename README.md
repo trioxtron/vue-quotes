@@ -1,5 +1,7 @@
 # quotes
 
+https://trioxtron-quotes.surge.sh
+
 ## Project setup
 ```
 npm install
