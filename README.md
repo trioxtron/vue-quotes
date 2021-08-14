@@ -1,6 +1,6 @@
 # quotes
 
-https://trioxtron-quotes.surge.sh
+http://trioxtron-quotes.surge.sh
 
 ## Project setup
 ```
