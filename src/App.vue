@@ -99,14 +99,12 @@ export default {
             quotes.value = allQuotes.results;
             pageIndex.value = 0;
 
-            console.log(allQuotes.results);
             authorSearchField.value = "";
         };
 
         const changed = async (e) => {
             let authors = JSON.parse(localStorage.getItem("authors"));
 
-            console.log(e.target.value);
             searchedAuthors.value = [];
 
             for (let i = 0; i < authors.length; i++) {
@@ -129,9 +127,6 @@ export default {
             );
 
             const data = await response.json();
-
-            console.log("fetching authors");
-            console.log(data);
 
             for (let i = 0; i < data.results.length; i++) {
                 authors.push(data.results[i].name);
